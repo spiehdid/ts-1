@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "dist",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+  },
+  "files": ["src/index.ts"]
+}
