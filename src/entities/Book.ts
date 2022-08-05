@@ -16,4 +16,8 @@ export class Book extends Product<Type> {
     this.author = author;
     this.genre = genre;
   }
+
+  getInfo() {
+    console.log(this.title, this.price)
+  }
 }
